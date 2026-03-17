@@ -6,3 +6,4 @@ def generate_password(length=16):
   password = ''.join(secrets.choice(characters) for _ in range(length))
   return password
 
+if __name__ == "__main__":
