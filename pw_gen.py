@@ -7,3 +7,4 @@ def generate_password(length=16):
   return password
 
 if __name__ == "__main__":
+  print(generate_password())
